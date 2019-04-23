@@ -7,6 +7,9 @@ ruby '2.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0.beta3'
+
+gem 'bundler', '~> 1.17.3'
+
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3', '~> 1.3', '>= 1.3.6'
